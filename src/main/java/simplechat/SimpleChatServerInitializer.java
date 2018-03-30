@@ -11,9 +11,7 @@ import io.netty.handler.codec.string.StringEncoder;
 
 /**
  * 服务端 ChannelInitializer
- * 
- * @author waylau.com
- * @date 2015-2-26
+ * 用来增加多个的处理类到 ChannelPipeline 上，包括编码、解码、SimpleChatServerHandler 等。
  */
 public class SimpleChatServerInitializer extends
 		ChannelInitializer<SocketChannel> {
